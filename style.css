@@ -1,7 +1,11 @@
-body{
-    background: #cccccc
+.titulo-principal{
+    padding-left: 20px;
 }
 
+body{
+    background: black;
+  }
+  
 p{
     text-align: center;   
 }
@@ -42,4 +46,19 @@ ul{
     display: inline-block;/*solo usa hasta donde llega item de la lista sin salto de linea*/
     width: 20%;
     margin-right: 4%;
+}
+/**/
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block; 
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
 }
