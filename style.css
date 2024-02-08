@@ -28,8 +28,18 @@ strong{
 
 .diferenciales{
     background-color: #1fabe29a;
+    padding: 10px;
 }
 
 .bloquePrincipal{
     background-color: aqua;
+    padding: 20px;
+}
+.imagenDiferenciales{
+    width: 70%;
+}
+ul{
+    display: inline-block;/*solo usa hasta donde llega item de la lista sin salto de linea*/
+    width: 20%;
+    margin-right: 4%;
 }
