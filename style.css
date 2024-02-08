@@ -21,4 +21,15 @@ strong{
 #banner{
     width: 100%;
 }
+/*class's*/
+.diferencialesItems{
+    font-style: italic;
+}
 
+.diferenciales{
+    background-color: #1fabe29a;
+}
+
+.bloquePrincipal{
+    background-color: aqua;
+}
