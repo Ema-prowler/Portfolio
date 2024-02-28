@@ -1,6 +1,24 @@
 header{
-    background-color: #ffffff
-    ;
+    background-color: #000000;
+    padding: 20px 0px;
+}
+
+.imagen_logo{
+    width: 20%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 5%;
+}
+
+nav{
+    position: absolute;
+    top: 94px;
+    right: -75%;
 }
 
 nav li{
@@ -10,8 +28,8 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
     text-decoration: none;
 }
