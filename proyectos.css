@@ -33,3 +33,68 @@ nav a{
     font-size: 20px;
     text-decoration: none;
 }
+
+.proyectos-lista li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    border-width: 2px;
+    border-radius: 10px;
+    animation: animateRainbow 5s linear infinite;
+    -webkit-animation: animateRainbow 5s linear infinite;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.proyectos-lista{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+    list-style: none;
+}
+
+.proyectos-lista img{
+    width: calc(75% - 10px);
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.proyectos-lista h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.proyectos-lista .foto-js{
+    width: 71%;
+}
+.descripcion-proyecto{
+    font-size: 18px;
+}
+
+.descripcion-aparte{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.proyectos-lista .python-logo-image{
+    width: 65.1%;
+}
+
+/*codigo de animacion del color de los bordes*/
+
+@keyframes animateRainbow {
+    0%, 100% { border-color: red; } /* Primer y último color son iguales */
+    16.66667% { border-color: orange; } /* Segundo color */
+    33.33333% { border-color: yellow; } /* Tercer color */
+    50% { border-color: green; } /* Cuarto color */
+    66.66667% { border-color: blue; } /* Quinto color */
+    83.33333% { border-color: indigo; } /* Sexto color */
+  }
