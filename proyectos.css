@@ -34,6 +34,11 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color:#ff9900;
+    text-decoration: underline;
+}
+
 .proyectos-lista li{
     display: inline-block;
     text-align: center;
@@ -45,12 +50,24 @@ nav a{
     border: 3px solid transparent;
     border-width: 2px;
     border-radius: 10px;
-    animation: animateRainbow 5s linear infinite;
-    -webkit-animation: animateRainbow 5s linear infinite;
+    border-color: #000000;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+.proyectos-lista li:hover{
+    animation: animateRainbow 5s linear infinite;
+    -webkit-animation: animateRainbow 5s linear infinite;
+}
+
+.proyectos-lista li:active{
+    border-color: chartreuse;
+}
+
+.proyectos-lista li:hover h2{
+    font-size: 33px;
 }
 
 .proyectos-lista{
