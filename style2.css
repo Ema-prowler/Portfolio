@@ -1,0 +1,84 @@
+header{
+    background-color: #000000;
+    padding: 20px 0px;
+}
+.imagen_logo{
+    width: 20%;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 5%;
+}
+
+nav{
+    position: absolute;
+    top: 94px;
+    right: -75%;
+}
+
+nav li{
+ display: inline;
+ margin: 0 0 0 16px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:#ff9900;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    
+  }
+
+.imagen_logo_footer{
+    display: inline-block;
+    width: 50%;
+    image-rendering: crisp-edges;
+}
+
+.texto-Copyright{
+    color: white;
+    font-size: 13px;
+    margin: 32;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}

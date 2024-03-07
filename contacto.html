@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <h1>
+          <img
+            class="imagen_logo"
+            src="Img/Logo Console 2.png"
+            alt="Imagen de el logo de Javascript"
+          />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">JS</a></li>
+            <li><a href="">Python</a></li>
+            <li><a href="">C++</a></li>
+            <li><a href="">Contacto</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/emanuel-coletti-b94b97291/"
+                >Linkedin</a
+              >
+            </li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form>
+        <label for="nombreyapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreyapellido" class="input-padron" />
+
+        <label for="correoelectronico">Correo Electronico</label>
+        <input type="text" id="correoelectronico" class="input-padron" />
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" class="input-padron" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          name=""
+          id="mensaje"
+          cols="70"
+          rows="10"
+          class="input-padron"
+        ></textarea>
+
+        <div>
+          <p>Como le gustaria que lo contactemos?</p>
+
+          <label for="radio-email"
+            ><input
+              type="radio"
+              name="Contacto"
+              value="email"
+              id="radio-email"
+            />Email</label
+          >
+
+          <label for="radio-telefono">
+            <input
+              type="radio"
+              name="Contacto"
+              value="telefono"
+              id="radio-telefono"
+            />Telefono</label
+          >
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="Contacto"
+              value="Whatsapp"
+              id="radio-whatsapp"
+            />Whatsapp</label
+          >
+        </div>
+
+        <label class="checkbox"
+          ><input type="checkbox" />Le gustaria recibir novedades del portafolio
+          ?</label
+        >
+        <input type="submit" value="Enviar Formulario" />
+      </form>
+    </main>
+    <footer>
+      <img
+        class="imagen_logo_footer"
+        src="Img/Logazo.png"
+        alt="logo de una consola"
+      />
+      <p class="texto-Copyright">&copy Copyright Ema-Prowler</p>
+    </footer>
+  </body>
+</html>
