@@ -115,3 +115,23 @@ nav a:hover{
     66.66667% { border-color: blue; } /* Quinto color */
     83.33333% { border-color: indigo; } /* Sexto color */
   }
+
+  footer{
+    text-align: center;
+    background-color: #000000;
+    padding: 40px;
+    color: rgb(255, 255, 255);
+    
+  }
+
+.imagen_logo_footer{
+    display: inline-block;
+    width: 50%;
+    image-rendering: crisp-edges;
+}
+
+.texto-Copyright{
+    color: white;
+    font-size: 13px;
+    margin: 32;
+}
