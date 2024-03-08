@@ -37,13 +37,25 @@
     <main>
       <form>
         <label for="nombreyapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreyapellido" class="input-padron" />
+        <input type="text" id="nombreyapellido" class="input-padron" required />
 
         <label for="correoelectronico">Correo Electronico</label>
-        <input type="text" id="correoelectronico" class="input-padron" />
+        <input
+          type="email"
+          id="correoelectronico"
+          class="input-padron"
+          required
+          placeholder="email@dominio.com"
+        />
 
         <label for="telefono">Telefono</label>
-        <input type="text" id="telefono" class="input-padron" />
+        <input
+          type="tel"
+          id="telefono"
+          class="input-padron"
+          required
+          placeholder="(XX) XXXX XXXX"
+        />
 
         <label for="mensaje">Mensaje</label>
         <textarea
@@ -52,10 +64,11 @@
           cols="70"
           rows="10"
           class="input-padron"
+          required
         ></textarea>
 
-        <div>
-          <p>Como le gustaria que lo contactemos?</p>
+        <fieldset>
+          <legend>¿Como le gustaria que lo contactemos?</legend>
 
           <label for="radio-email"
             ><input
@@ -81,16 +94,50 @@
               name="Contacto"
               value="Whatsapp"
               id="radio-whatsapp"
+              checked
             />Whatsapp</label
           >
-        </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>¿En cual horario prefiere ser atendido?</legend>
+
+          <select>
+            <option>Mañana</option>
+            <option>Tarde</option>
+            <option>Noche</option>
+          </select>
+        </fieldset>
 
         <label class="checkbox"
-          ><input type="checkbox" />Le gustaria recibir novedades del portafolio
-          ?</label
+          ><input type="checkbox" checked />¿Le gustaria recibir novedades del
+          portafolio?</label
         >
-        <input type="submit" value="Enviar Formulario" />
+        <input type="submit" value="Enviar Formulario" class="enviar" />
       </form>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horario</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>lunes</td>
+            <td>08h | 20h</td>
+          </tr>
+          <tr>
+            <td>Miercoles</td>
+            <td>08h | 20h</td>
+          </tr>
+          <tr>
+            <td>Viernes</td>
+            <td>08h | 20h</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
     <footer>
       <img
