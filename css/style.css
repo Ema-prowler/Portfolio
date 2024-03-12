@@ -1,144 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Roboto&display=swap");
 
-body{
-    background: black;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-  }
+body {
+  background: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
-strong{
-    color: red;
+strong {
+  color: red;
 }
 
 /*class's*/
-.diferencialesItems{
-    font-style: italic;
+.diferencialesItems {
+  font-style: italic;
+  line-height: 1.5;
 }
 
-.diferenciales{
-    background-color: #1fabe29a;
-    padding: 10px;
+.diferencialesItems:first-child {
+  font-weight: bold;
 }
 
-.imagenDiferenciales{
-    width: 70%;
+.diferenciales {
+  background-color: #1fabe29a;
+  padding: 10px;
+}
+
+.imagenDiferenciales {
+  width: 70%;
 }
 
 /**/
 
 /**/
 
-header{
-    background-color: #000000;
-    padding: 20px 0px;
+header {
+  background-color: #000000;
+  padding: 20px 0px;
 }
 
-.imagen_logo{
-    width: 20%;
-    filter: invert(100%);
-    -webkit-filter: invert(100%);
+.imagen_logo {
+  width: 20%;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
 }
 
-.caja{
-    width: 940px;
-    position: relative;
-    margin: 0 5%;
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 5%;
 }
 
-nav{
-    position: absolute;
-    top: 94px;
-    right: -75%;
+nav {
+  position: absolute;
+  top: 94px;
+  right: -75%;
 }
 
-nav li{
- display: inline;
- margin: 0 0 0 16px;
+nav li {
+  display: inline;
+  margin: 0 0 0 16px;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 20px;
-    text-decoration: none;
+nav a {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-nav a:hover{
-    color:#ff9900;
-    text-decoration: underline;
+nav a:hover {
+  color: #ff9900;
+  text-decoration: underline;
 }
 
-footer{
-    text-align: center;
-    background-color: #000000;
-    padding: 40px;
-    color: rgb(255, 255, 255);
-    
-  }
-
-.imagen_logo_footer{
-    display: inline-block;
-    width: 50%;
-    image-rendering: crisp-edges;
+footer {
+  text-align: center;
+  background-color: #000000;
+  padding: 40px;
+  color: rgb(255, 255, 255);
 }
 
-.texto-Copyright{
-    color: white;
-    font-size: 13px;
-    margin: 32;
+.imagen_logo_footer {
+  display: inline-block;
+  width: 50%;
+  image-rendering: crisp-edges;
+}
+
+.texto-Copyright {
+  color: white;
+  font-size: 13px;
+  margin: 32;
 }
 
 /*CSS para nuestra pagina inicial/Home*/
 
-.banner{
-    width: 100%;
+.banner {
+  width: 100%;
 }
 
-.titulo-principal{
-    color: white;
-    padding-left: 20px;
-    font-size: xx-large;
-    text-align: center;
-    border: 10px solid rgb(255, 255, 255);
-    padding: 20px;
-    margin: 0 0 1em;
-    clear:left;
+.titulo-principal {
+  color: white;
+  padding-left: 20px;
+  font-size: xx-large;
+  text-align: center;
+  border: 10px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 0 0 1em;
+  clear: left;
 }
-.bloquePrincipal p{
-    margin: 0 0 1em;
-    color: #ff9900;
+.bloquePrincipal p {
+  margin: 0 0 1em;
+  color: #ff9900;
 }
-.bloquePrincipal strong{
-    font-weight: bold;
-}
-
-.bloquePrincipal em{
-    font-style: italic;
+.bloquePrincipal strong {
+  font-weight: bold;
 }
 
-.spotify{
-    padding: 3em 0;
+.bloquePrincipal em {
+  font-style: italic;
 }
 
-.spotify p{
-    margin: 0 0 2em;
-    text-align: center;
+.spotify {
+  padding: 3em 0;
 }
 
-.imagenDiferenciales{
-    width: 60%;
+.spotify p {
+  margin: 0 0 2em;
+  text-align: center;
 }
 
-.video{
-    width: 560px;
-    margin: 1em auto;
+.contenido-diferenciales {
+  width: 640p;
+  margin: 0 auto;
 }
 
-.logoimagendemarca{
-    width: 256px;
-    float: left;
-    margin: 0 20px 20px 0;
+.lista-diferenciales {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagenDiferenciales {
+  width: 55%;
+  display: inline-block;
+}
+
+.video {
+  width: 560px;
+  margin: 1em auto;
+}
+
+.logoimagendemarca {
+  width: 256px;
+  float: left;
+  margin: 0 20px 20px 0;
 }
