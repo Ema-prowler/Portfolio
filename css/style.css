@@ -206,4 +206,22 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+  .caja,
+  .bloquePrincipal,
+  .contenido-spotify,
+  .diferenciales,
+  .contenido-diferenciales,
+  .video {
+    width: auto;
+  }
+  .lista-diferenciales,
+  .imagenDiferenciales {
+    width: 100%;
+  }
 }
