@@ -154,8 +154,19 @@ footer {
 }
 
 .imagenDiferenciales {
-  width: 55%;
+  width: calc(55% - 26px); /*forma de calcular la imagen en una pantalla*/
   display: inline-block;
+  opacity: 75%;
+  box-shadow: 10px 10px 30px 15px #ffffff;
+}
+
+.imagenDiferenciales:hover {
+  opacity: 100%;
+  transition: 150ms;
+  -webkit-transition: 150ms;
+  -moz-transition: 150ms;
+  -ms-transition: 150ms;
+  -o-transition: 150ms;
 }
 
 /*Video de youtube en Iframe*/
@@ -187,4 +198,12 @@ footer {
 .contenido-spotify {
   width: 940px;
   margin: 0 auto;
+}
+/*ejemplos*/
+.parrafoejemplo {
+  color: white;
+  background: red;
+}
+
+@media screen and (max-width: 480px) {
 }
